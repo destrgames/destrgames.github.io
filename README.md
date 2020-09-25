@@ -1,2 +1,5 @@
+[English version][README_EN.md]
+---
 # destrgames.gitlab.io
-Tohle je zdrojový kód webových stránek pro studio destrGAMES.
+Toto je zdrojový kód pro stránky studia destrGAMES. Používá [Hugo](https://gohugo.io) a [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages)
+
