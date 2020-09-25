@@ -1,0 +1,68 @@
+DefaultContentLanguage = "cs"
+baseurl = "/"
+languageCode = "cs-cz"
+theme = "terminal"
+paginate = 5
+
+[params]
+    # Name of folder with main content (content/[contentTypeName])
+    contentTypeName = "posts"
+
+    # Color of theme
+    # Valid options: "orange", "blue", "red", "green", "pink"
+    themeColor = "blue"
+
+    # How many items to show in menu
+    showMenuItems = 3
+
+    # Show the language selector
+    showLanguageSelector = false
+
+    # Use the full screen width
+    fullWidthTheme = false
+
+    # Center the theme within the default width
+    centerTheme = true
+
+    # Set a favicon
+    # Default is a square of themeColor
+    # favicon = "favicon.ico"
+
+    # Show when the blog was last updated
+    showLastUpdated = false
+
+    # Prefix for "updated"
+    updatedDatePrefix = "Aktualizováno"
+
+    # Set all headings to the default size (depending on browser settings)
+    oneHeadingSize = true
+
+[params.twitter]
+    # Set the Twitter handle for Twitter cards
+    # Do not include "@"
+    creator = ""
+    size = ""
+
+[languages]
+    [languages.cs]
+        languageName = "Čeština"
+        title = "orangeorange0123"
+        subtitle = "Stránky herního studia destrGAMES"
+        owner = ""
+        keywords = "destrGAMES, destr, hry, games, herní studio, studio, game studio, developer, vývojář"
+        copyright = "This work is licensed under CC BY-SA 4.0"
+        menuMore = "Zobrazit více"
+        readMore = "Číst dále"
+        readOtherPosts = "Číst další příspěvky"
+        missingContentMessage = "Stránka nenalezena :("
+        missingBackButtonLabel = "Zpět na domovskou stránku"
+
+        [languages.cs.params.logo]
+            logoText = "destrGAMES"
+            logoHomeLink = "/"
+        
+        [languages.cs.menu]
+            [[languages.cs.menu.main]]
+                identifier = "GitLab"
+                name = "Náš GitLab"
+                url = "https://gitlab.com/destgames"
