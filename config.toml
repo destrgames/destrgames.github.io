@@ -65,4 +65,4 @@ paginate = 5
             [[languages.cs.menu.main]]
                 identifier = "GitLab"
                 name = "Náš GitLab"
-                url = "https://gitlab.com/destgames"
+                url = "https://gitlab.com/destrgames"
